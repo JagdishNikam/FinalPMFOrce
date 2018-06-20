@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Daily Timesheet Warning</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Daily Timesheet Warning</name>
+    <style>none</style>
+    <subject>Timesheet Warning : You haven&apos;t added Timesheet !</subject>
+    <type>custom</type>
+</EmailTemplate>

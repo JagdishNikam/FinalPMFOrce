@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Allocation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Allocations</value>
+    </caseValues>
+    <fields>
+        <help><!-- For FP Project Only --></help>
+        <label><!-- Allocated Effort (Hrs) --></label>
+        <name>Allocated_Effort_Hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation End Date --></label>
+        <name>Allocation_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation Percentage --></label>
+        <name>Allocation_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation Start Date --></label>
+        <name>Allocation_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation Type --></label>
+        <name>Allocation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bench</masterLabel>
+            <translation><!-- Bench --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billable</masterLabel>
+            <translation><!-- Billable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave</masterLabel>
+            <translation><!-- Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Billable</masterLabel>
+            <translation><!-- Non-Billable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Rate --></label>
+        <name>Billing_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR Name --></label>
+        <name>CR_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change RequestL --></label>
+        <name>Change_RequestL__c</name>
+        <relationshipLabel><!-- Allocations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CurrentYear --></label>
+        <name>CurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmployeeEmail --></label>
+        <name>EmployeeEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee --></label>
+        <name>Employee__c</name>
+        <relationshipLabel><!-- Allocations (Employee) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>Project_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Allocated Employees --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today&apos;s TimeSheet --></label>
+        <name>Today_TimeSheet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Request --></label>
+        <name>cr__c</name>
+    </fields>
+    <fields>
+        <label><!-- isTimesheetAddedToday --></label>
+        <name>isTimesheetAddedToday__c</name>
+    </fields>
+    <layouts>
+        <layout>FP Allocation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TM Allocation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- FP --></label>
+        <name>FP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TM --></label>
+        <name>TM</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please mark this as Change Request --></errorMessage>
+        <name>validation_for_change_request_lookup</name>
+    </validationRules>
+</CustomObjectTranslation>

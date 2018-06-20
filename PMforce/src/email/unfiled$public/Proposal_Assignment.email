@@ -1,0 +1,10 @@
+Dear {!Quote.Proposal_Owner__c}, 
+
+{!Quote.Name} proposal  has been  assigned to you.
+
+For further details please refer the link - 
+{!Quote.Link} 
+
+Thank You. 
+
+Aress CRM

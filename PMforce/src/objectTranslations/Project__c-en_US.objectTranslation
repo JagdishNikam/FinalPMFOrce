@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Alan Acton</masterLabel>
+            <translation><!-- Alan Acton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amol Gaval</masterLabel>
+            <translation><!-- Amol Gaval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devdatta Kumbhare</masterLabel>
+            <translation><!-- Devdatta Kumbhare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greg Cutler</masterLabel>
+            <translation><!-- Greg Cutler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Himanshu Chate</masterLabel>
+            <translation><!-- Himanshu Chate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Young</masterLabel>
+            <translation><!-- Jason Young --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kishor Kulkarni</masterLabel>
+            <translation><!-- Kishor Kulkarni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soumil Chitnis</masterLabel>
+            <translation><!-- Soumil Chitnis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sumanta Mukherjee</masterLabel>
+            <translation><!-- Sumanta Mukherjee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Total efforts (in hrs) of all timesheets of this CR --></help>
+        <label><!-- Actual CR Efforts (in hrs) --></label>
+        <name>Actual_CR_Efforts_in_hrs_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual End Date --></label>
+        <name>Actual_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total efforts (in hrs) of all timesheets of this Project --></help>
+        <label><!-- Actual Project Efforts (in hrs) --></label>
+        <name>Actual_Project_Efforts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Start Date --></label>
+        <name>Actual_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocated Effort (Hours) --></label>
+        <name>Allocated_Effort_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- BU --></label>
+        <name>BU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated CR efforts (in hrs) --></label>
+        <name>Estimated_CR_efforts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Project Efforts (Hrs) --></label>
+        <name>Estimated_Effort__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Email --></label>
+        <name>Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 1 --></label>
+        <name>Number_of_Resources_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 2 --></label>
+        <name>Number_of_Resources_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 3 --></label>
+        <name>Number_of_Resources_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 4 --></label>
+        <name>Number_of_Resources_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phase --></label>
+        <name>Phase__c</name>
+        <picklistValues>
+            <masterLabel>Analysis</masterLabel>
+            <translation><!-- Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build</masterLabel>
+            <translation><!-- Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution</masterLabel>
+            <translation><!-- Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing</masterLabel>
+            <translation><!-- Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Training</masterLabel>
+            <translation><!-- User Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Support</masterLabel>
+            <translation><!-- Warranty Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planned End Date --></label>
+        <name>Planned_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Start Date --></label>
+        <name>Planned_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project ID --></label>
+        <name>Project_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Manager --></label>
+        <name>Project_Manager__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>Project_Type__c</name>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type_txt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 1 --></label>
+        <name>Role_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 2 --></label>
+        <name>Role_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 3 --></label>
+        <name>Role_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 4 --></label>
+        <name>Role_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution</masterLabel>
+            <translation><!-- Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total No of CR --></label>
+        <name>Total_No_of_CR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total No of Open CR --></label>
+        <name>Total_No_of_Open_CR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total efforts (in hrs) including CR --></label>
+        <name>Total_efforts_in_hrs_including_CR__c</name>
+    </fields>
+    <layouts>
+        <layout>FP</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Resources &amp; Roles --></label>
+            <section>Resources &amp; Roles</section>
+        </sections>
+        <sections>
+            <label><!-- Time Line and Effort --></label>
+            <section>Time Line and Effort</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Resources &amp; Roles --></label>
+            <section>Resources &amp; Roles</section>
+        </sections>
+        <sections>
+            <label><!-- Time Line and Efforts --></label>
+            <section>Time Line and Efforts</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TM</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Resources &amp; Roles --></label>
+            <section>Resources &amp; Roles</section>
+        </sections>
+        <sections>
+            <label><!-- Time Line and Effort --></label>
+            <section>Time Line and Effort</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- FP --></label>
+        <name>FP</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TM --></label>
+        <name>TM</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- DisplayOwn --></label>
+        <name>DisplayOwn</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Project Number needs to be in the format Pxxxxxxx where x is a number between 0 and 9. --></errorMessage>
+        <name>Project_Number_to_be_P0000000</name>
+    </validationRules>
+</CustomObjectTranslation>

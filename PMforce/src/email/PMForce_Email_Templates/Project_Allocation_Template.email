@@ -1,0 +1,52 @@
+<html>
+<body>
+
+<div style="text-align: center; width: 90%; margin: auto; background-color:#D3D3D3;padding-bottom:0.5%;">
+<table style="text-align: center; margin: auto; width: 100%;" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="left" style="padding-bottom:2px"><img src="https://aress--c.na30.visual.force.com/resource/1468023901000/Logo2" alt="AressLogo" height="45" border="0" /></td>
+</tr>
+<tr>
+<td style="font-family: Arial,Helvetica,sans-serif; font-size: 12px; text-align: left;" bgcolor="#FFFFFF">
+<div>
+
+<div id="reply" style="margin-left: 20px;"><br><br>
+Hello {!Allocation__c.Employee__c},<br><br><br>
+
+New Project / CR <mark style="background-color: lightgray ;">{!Allocation__c.Project__c} {!Allocation__c.Change_RequestL__c}</mark>    has been assigned to you.<br><br>
+
+Project / CR Name: {!Allocation__c.Project__c} {!Allocation__c.Change_RequestL__c}<br>
+Allocated Start Date: {!Allocation__c.Allocation_Start_Date__c}<br>
+Allocated End Date: {!Allocation__c.Allocation_End_Date__c}<br>
+Project Manager: {!Project__c.Project_Manager__c}<br><br><br>
+
+
+Please add your daily timesheet for this project by clicking on below link:<br><br>
+
+<a  href="http://aress.force.com/PMForce" target="_blank">Add  Your Timesheet Here
+</a>
+<br><br>
+<br><br>
+
+Powered By,<br>
+PMForce Team<br><br>
+</div>
+
+<div style="color: #777; font-size: 10px; margin: 0px 0px 0px 10px;"><span style="background-color: #d8f4fa;"></span></div>
+
+</div>
+</td>
+</tr>
+
+<tr style="font-family: Arial,Helvetica,sans-serif; font-size: 11px; text-align: center; color: #030404;" height="30" bgcolor="#D3D3D3">
+ 
+<td> &copy; {!Allocation__c.CurrentYear__c}  Aress Software & Education Technologies (P) Ltd. All rights reserved.</td>
+
+ 
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

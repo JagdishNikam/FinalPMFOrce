@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Proposal Assignment</name>
+    <style>none</style>
+    <subject>Proposal {!Quote.Name} has been assigned to you :: Target Submission date {!Quote.Target_Submission_Date__c}</subject>
+    <type>text</type>
+</EmailTemplate>

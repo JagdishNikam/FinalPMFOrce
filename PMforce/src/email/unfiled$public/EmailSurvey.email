@@ -1,0 +1,11 @@
+Dear {!Contact.Name} , 
+We actively use feedback to constantly improve our delivery and provide you with the best possible service. 
+
+To provide us with your feedback please click the link below: 
+
+http://aress.force.com/Survey/DisplayPage?id={!Contact.Feedback_ID__c}&fullname={!Contact.Fullname_URL__c}&email={!Contact.Department}&phone={!Contact.OtherPhone}&conid={!Contact.Id} 
+
+Thank you for your time, we appreciate it, 
+
+Best Regards, 
+Aress Softwares and Education Technologies Private Limited.

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Change Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Change Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Change Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Actual CR Efforts (in hrs) --></label>
+        <name>Actual_CR_Efforts_in_hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual End Date --></label>
+        <name>Actual_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Start Date --></label>
+        <name>Actual_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CR Name --></label>
+        <name>CR_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Details --></label>
+        <name>Change_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Efforts (in hrs) --></label>
+        <name>Efforts_in_hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 1 --></label>
+        <name>Number_of_Resources_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 2 --></label>
+        <name>Number_of_Resources_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 3 --></label>
+        <name>Number_of_Resources_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Resources 4 --></label>
+        <name>Number_of_Resources_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned End Date --></label>
+        <name>Planned_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned Start Date --></label>
+        <name>Planned_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProjectName --></label>
+        <name>ProjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Change Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RecordType --></label>
+        <name>RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 1 --></label>
+        <name>Role_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 2 --></label>
+        <name>Role_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 3 --></label>
+        <name>Role_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role 4 --></label>
+        <name>Role_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- manager emial --></label>
+        <name>manager_emial__c</name>
+    </fields>
+    <layouts>
+        <layout>CR FP Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CR TM Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Resources &amp; Roles --></label>
+            <section>Resources &amp; Roles</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Change Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Resources &amp; Roles --></label>
+            <section>Resources &amp; Roles</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- FP CR --></label>
+        <name>FP_CR</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TM CR --></label>
+        <name>TM_CR</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
