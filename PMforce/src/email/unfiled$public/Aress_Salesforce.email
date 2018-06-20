@@ -1,0 +1,754 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Salesforce Aress</title>
+     <!-- This template is created by Jason Young, contact for support: skype: jason.aress , email: jason.young@aress.com   -->
+      <style type="text/css">
+         /* Client-specific Styles */
+         #outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+         body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;}
+         /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+         .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+         .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+         #backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+         img {outline:none; text-decoration:none;border:none; -ms-interpolation-mode: bicubic;}
+         a img {border:none;}
+         .image_fix {display:block;}
+         p {margin: 0px 0px !important;}
+         
+         table td {border-collapse: collapse;}
+         table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+         /*a {color: #e95353;text-decoration: none;text-decoration:none!important;}*/
+         /*STYLES*/
+         table[class=full] { width: 100%; clear: both; }
+         
+         /*################################################*/
+         /*IPAD STYLES*/
+         /*################################################*/
+         @media only screen and (max-width: 640px) {
+         a[href^="tel"], a[href^="sms"] {
+         text-decoration: none;
+         color: #ffffff; /* or whatever your want */
+         pointer-events: none;
+         cursor: default;
+         }
+         .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+         text-decoration: default;
+         color: #ffffff !important;
+         pointer-events: auto;
+         cursor: default;
+         }
+         table[class=devicewidth] {width: 440px!important;text-align:center!important;}
+         table[class=devicewidthinner] {width: 420px!important;text-align:center!important;}
+         table[class="sthide"]{display: none!important;}
+         img[class="bigimage"]{width: 100%!important;height:auto!important;}
+         img[class="col2img"]{width: 420px!important;height:258px!important;}
+         img[class="image-banner"]{width: 440px!important;height:106px!important;}
+         td[class="menu"]{text-align:center !important; padding: 0 0 10px 0 !important;}
+         td[class="logo"]{padding:10px 0 5px 0!important;margin: 0 auto !important;}
+         img[class="logo"]{padding:0!important;margin: 0 auto !important;}
+
+         }
+         /*##############################################*/
+         /*IPHONE STYLES*/
+         /*##############################################*/
+         @media only screen and (max-width: 480px) {
+         a[href^="tel"], a[href^="sms"] {
+         text-decoration: none;
+         color: #ffffff; /* or whatever your want */
+         pointer-events: none;
+         cursor: default;
+         }
+         .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+         text-decoration: default;
+         color: #ffffff !important; 
+         pointer-events: auto;
+         cursor: default;
+         }
+         table[class=devicewidth] {width: 280px!important;text-align:center!important;}
+         table[class=devicewidthinner] {width: 260px!important;text-align:center!important;}
+         table[class="sthide"]{display: none!important;}
+         img[class="bigimage"]{width: 100%!important;height:auto!important;}
+         img[class="col2img"]{width: 260px!important;height:160px!important;}
+         img[class="image-banner"]{width: 280px!important;height:68px!important;}
+         
+         }
+      </style>
+
+      
+   </head>
+<body>
+<div class="block">
+
+<!-- This template is created by Jason Young, contact for support: skype: jason.aress , email: jason.young@aress.com   -->
+
+   <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="preheader">
+      <tbody>
+         <tr>
+            <td width="100%" align="center">
+               <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                  <tbody>
+                     <!-- Spacing -->
+                     <tr>
+                        <td width="100%" height="5"></td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td align="right" valign="middle" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 10px;color: #999999" st-content="preheader">&nbsp;</td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td width="100%" height="5"></td>
+                     </tr>
+                     <!-- Spacing -->
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <!-- End of preheader -->
+</div>
+<div class="block">
+   <!-- start of header -->
+   <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="header">
+      <tbody>
+         <tr>
+            <td align="center">
+               <table width="600" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" hlitebg="edit" shadow="edit">
+                  <tbody>
+                     <tr>
+                        <td>
+                           <!-- logo -->
+                           <table width="280" cellpadding="0" cellspacing="0" border="0" align="left" class="devicewidth">
+                              <tbody>
+                                 <tr>
+                                    <td valign="middle" width="270" style="padding: 10px 0 10px 20px;" class="logo">
+                                       <div class="imgpop">
+                                          <img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pU2&oid=00D36000000JqqV&lastMod=1468577702000" alt="logo" width="270" height="94" border="0" class="logo" style="display:block; border:none; outline:none; text-decoration:none;" st-image="edit"></div>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <!-- End of logo -->
+                           <!-- menu -->
+                           <table width="280" cellpadding="0" cellspacing="0" border="0" align="right" class="devicewidth">
+                              <tbody>
+                                 <tr>
+                                    <td width="270" valign="middle" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;font-size: 16px; color: #444444;line-height:20px; padding: 30px 0;" align="right" class="menu" st-content="menu">
+                                       <a href="http://aress.com/index.html" style="text-decoration: none; color: #444444;" target="_blank">HOME</a>
+                                       &nbsp;|&nbsp;
+                                       <a href="http://aress.com/who-we-are.php" style="text-decoration: none; color: #444444;" target="_blank">ABOUT</a>&nbsp;|&nbsp;<a href="http://aress.com/contact-us.php" style="text-decoration: none; color: #444444;" target="_blank">CONTACT</a>
+                                 </td>
+                                    <td width="20"></td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                           <!-- End of Menu -->
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <!-- end of header -->
+</div><div class="block">
+   <!-- image + text -->
+   <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="bigimage">
+      <tbody>
+         <tr>
+            <td align="center">
+               <table bgcolor="#EDEDED" width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth" modulebg="edit">
+                  <tbody>
+                     <tr class="devicewidthinner">
+                       <!-- start of image -->
+                       <td width="100%" align="center"><img width="600" border="0" height="225" alt="" style="display:block; border:none; outline:none; text-decoration:none;" src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022piJ&oid=00D36000000JqqV&lastMod=1468580016000" class="bigimage"></td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <table width="560" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidthinner">
+                              <tbody>
+                                 <!-- end of image -->
+                                 <!-- Spacing -->
+                                 <tr>
+                                    <td width="100%" height="20"></td>
+                                 </tr>
+                                 <!-- Spacing -->
+                                 <!-- title -->
+                                 <tr>
+                                    <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 18px; color: #333333; text-align:left;line-height: 20px;" st-title="rightimage-title">
+                                       Salesforce Development</td>
+                                 </tr>
+                                 <!-- end of title -->
+                                 <!-- Spacing -->
+                                 <tr>
+                                    <td width="100%" height="5"></td>
+                                 </tr>
+                                 <!-- Spacing -->
+                                 <!-- content -->
+                                 <tr>
+                                   <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 13px; color: #444444; text-align:left;line-height: 18px;" st-content="leftimage-paragraph"><strong>Aress</strong>, in partnership with Salesforce.com, has a micro-niche, razor focused team of certified Salesforce developers and consultants. Our Salesforce practice can help you with all your consulting, implementation and support service requirements with Salesforce, the most trusted Customer Success Platform.</td>
+                                 </tr>
+                                 
+                               
+                                 
+                                 
+                                 
+                                 
+                                 <!-- end of content -->
+                                 <!-- Spacing -->
+                                 <tr>
+                                    <td width="100%" height="10"></td>
+                                 </tr>
+                                 <!-- button -->
+                                 <tr>
+                                    <td>
+                                       <table height="30" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" class="tablet-button" st-button="edit">
+                                                                 
+                                      </table>
+                                    </td>
+                                 </tr>
+                                 <!-- /button -->
+                                 <!-- Spacing -->
+                                 <tr>
+                                    <td width="100%" height="20"></td>
+                                 </tr>
+                                 <!-- Spacing -->
+                              </tbody>
+                           </table>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+<div class="block">
+   <!-- start of left image -->
+  <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="leftimage">
+      <tbody>
+         <tr>
+            <td>
+               <table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" modulebg="edit">
+                  <tbody>
+                     <!-- Spacing -->
+                     <tr class="devicewidthinner">
+                       <td height="20"></td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td>
+                           <table width="560" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                              <tbody>
+                                 <tr>
+                                    <td>
+                                       <!-- start of text content table -->
+                                       <table width="200" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                                          <tbody>
+                                             <!-- image -->
+                                             <tr>
+                                                <td width="200" align="center">
+                                                   <img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pVF&oid=00D36000000JqqV&lastMod=1468577884000" alt="" border="0" width="200" height="155" style="display:block; border:none; outline:none; text-decoration:none;">
+                                                </td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <!-- mobile spacing -->
+                                       <table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing">
+                                          <tbody>
+                                             <tr>
+                                                <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <!-- mobile spacing -->
+                                       <!-- start of right column -->
+                                       <table width="350" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                                         <tr>
+                                           <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 18px; color: #333333; text-align:left;line-height: 20px;" st-title="rightimage-title">Are you aiming to become productive with your Salesforce packages immediately?<p></td>
+                                         </tr>
+                                          <tbody>
+                                             <!-- title -->
+                                             <!-- end of title -->
+                                             <!-- Spacing -->
+                                             <!-- Spacing -->
+                                             <!-- content -->
+                                             <tr>
+                                                <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 13px; color: #444444; text-align:left;line-height: 18px;" st-content="leftimage-paragraph">Our Quick Start Packages for Salesforce.com can provide your organization with the optimal set up and configurations for Salesforce.com to scale & drive your business to the next level. We provide the following features as part of Quick Start at a very attractive fixed price.</td>
+                                             </tr>
+                                             <!-- end of content -->
+                                             <!-- Spacing -->
+                                             <tr>
+                                                <td width="100%" height="10"></td>
+                                             </tr>
+                                             <!-- button -->
+                                             <tr>
+                                                <td>
+                                                   <table height="30" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" class="tablet-button" st-button="edit">
+                                                                  <tbody>
+                                                                     <tr>
+                                                                        <td width="auto" align="center" valign="middle" height="30" style=" background-color:#0774B5; border-top-left-radius:4px; border-bottom-left-radius:4px;border-top-right-radius:4px; border-bottom-right-radius:4px; background-clip: padding-box;font-size:13px; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; text-align:center;  color:#ffffff; font-weight: 300; padding-left:18px; padding-right:18px;">
+                                                                        
+                                                                           <span style="color: #ffffff; font-weight: 300;">
+                                                                              <a style="color: #ffffff; text-align:center;text-decoration: none;" href="http://aress.com/order-detail.php" target="_blank">Read More</a>
+                                                                           </span>
+                                                                        </td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                </td>
+                                             </tr>
+                                             <!-- /button -->
+                                          </tbody>
+                                       </table>
+                                       <!-- end of right column -->
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td height="20"></td>
+                     </tr>
+                     <!-- Spacing -->
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <!-- end of left image -->
+</div>
+<div class="block">
+   <!-- start of left image -->
+   <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="rightimage">
+      <tbody>
+         <tr>
+            <td align="center">
+               <table bgcolor="#EDEDED" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" modulebg="edit">
+                  <tbody>
+                     <!-- Spacing -->
+                     <tr>
+                        <td height="20"></td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td>
+                           <table width="560" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                              <tbody>
+                                 <tr>
+                                    <td>
+                                       <!-- start of text content table -->
+                                       <table width="200" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                                          <tbody>
+                                             <!-- image -->
+                                             <tr>
+                                                <td width="200" align="center">
+                                                   <img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022piY&oid=00D36000000JqqV&lastMod=1468580084000" alt="" border="0" width="200" height="156" style="display:block; border:none; outline:none; text-decoration:none;">
+                                                </td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <!-- mobile spacing -->
+                                       <table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing">
+                                          <tbody>
+                                             <tr>
+                                                <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <!-- mobile spacing -->
+                                       <!-- start of right column -->
+                                       <table width="350" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                                          <tbody>
+                                             <!-- title -->
+                                             <tr>
+                                                <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 18px; color: #333333; text-align:left;line-height: 20px;" st-title="rightimage-title">
+                                                  Salesforce Implementation Services</td>
+                                             </tr>
+                                             <!-- end of title -->
+                                             <!-- Spacing -->
+                                             <tr>
+                                                <td width="100%" height="5"></td>
+                                             </tr>
+                                             <!-- Spacing -->
+                                             <!-- content -->
+                                             <tr>
+                                                <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 13px; color: #444444; text-align:left;line-height: 18px;" st-content="rightimage-paragraph">
+                                                  Successful and sustainable implementation of Salesforce needs an in-depth analysis of your current business situation and your future vision. Our experienced implementation team has deep business and technical competencies and remain focused helping our clients throughout entire product lifecycle.</td>
+                                             </tr>
+                                             <!-- end of content -->
+                                             <!-- Spacing -->
+                                             <tr>
+                                                <td width="100%" height="10"></td>
+                                             </tr>
+                                             <!-- button -->
+                                             <tr>
+                                                <td>
+                                                   <table height="30" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" class="tablet-button" st-button="edit">
+                                                                  <tbody>
+                                                                     <tr>
+                                                                        <td width="auto" align="center" valign="middle" height="30" style=" background-color:#0774B5; border-top-left-radius:4px; border-bottom-left-radius:4px;border-top-right-radius:4px; border-bottom-right-radius:4px; background-clip: padding-box;font-size:13px; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; text-align:center;  color:#ffffff; font-weight: 300; padding-left:18px; padding-right:18px;">
+                                                                        
+                                                                           <span style="color: #ffffff; font-weight: 300;">
+                                                                              <a style="color: #ffffff; text-align:center;text-decoration: none;" href="http://aress.com/salesforce.php" target="_blank">Read More</a>
+                                                                           </span>
+                                                                        </td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                </td>
+                                             </tr>
+                                             <!-- /button -->
+                                          </tbody>
+                                       </table>
+                                       <!-- end of right column -->
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td height="20"></td>
+                     </tr>
+                     <!-- Spacing -->
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <!-- end of left image -->
+</div>
+<div class="block">
+  <!-- Start of 2-columns -->
+  <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable2" st-sortable="2columns">
+    <tbody>
+      <tr>
+        <td align="center"><table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" modulebg="edit">
+          <tbody>
+            <tr>
+              <td width="100%" height="20"></td>
+            </tr>
+            <tr>
+              <td><table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                <tbody>
+                  <tr>
+                    <td><table width="270" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                      <tbody>
+                        <!-- image -->
+                        <tr>
+                          <td width="260" height="140" align="center" class="devicewidth"><img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pis&oid=00D36000000JqqV&lastMod=1468580123000" alt="" border="0" width="270" height="159" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img"></td>
+                        </tr>
+                        <!-- Spacing -->
+                        <tr>
+                          <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                        </tr>
+                        <!-- Spacing -->
+                        <tr>
+                          <td><!-- start of text content table -->
+                            <table width="260" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                              <tbody>
+                                <!-- title -->
+                                <tr>
+                                  <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 18px; color: #333333; text-align:left;line-height: 20px;" st-title="2col-title1"> Strategic Consulting  </td>
+                                </tr>
+                                <!-- end of title -->
+                                <!-- Spacing -->
+                                <tr>
+                                  <td width="100%" height="5" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                                </tr>
+                                <!-- /Spacing -->
+                                <!-- content -->
+                                <tr>
+                                  <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 13px; color: #444444; text-align:left;line-height: 18px;" st-content="rightimage-paragraph"> We offer comprehensive consulting services for custom Salesforce implementations that meet your unique business needs. Our experienced Salesforce consultants follow a hands-on approach to study your business process, future visions and ensure the best suited and sustainable implementation. If you are managing your own ...</td>
+                                </tr>
+                                <!-- end of content -->
+                                <!-- Spacing -->
+                                <tr>
+                                  <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                                </tr>
+                                <!-- /Spacing -->
+                                <!-- button -->
+                                <tr>
+                                  <td><table height="30" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" class="tablet-button" st-button="edit">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" valign="middle" height="30" style=" background-color:#0774B5; border-top-left-radius:4px; border-bottom-left-radius:4px;border-top-right-radius:4px; border-bottom-right-radius:4px; background-clip: padding-box;font-size:13px; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; text-align:center;  color:#ffffff; font-weight: 300; padding-left:18px; padding-right:18px;"><span style="color: #ffffff; font-weight: 300;"> <a style="color: #ffffff; text-align:center;text-decoration: none;" href="http://aress.com/salesforce.php" target="_blank">Read More</a> </span></td>
+                                      </tr>
+                                    </tbody>
+                                  </table></td>
+                                </tr>
+                                <!-- /button -->
+                              </tbody>
+                            </table></td>
+                        </tr>
+                        <!-- end of text content table -->
+                      </tbody>
+                    </table>
+                      <!-- end of left column -->
+                      <!-- spacing for mobile devices-->
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing">
+                        <tbody>
+                          <tr>
+                            <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <!-- end of for mobile devices-->
+                      <!-- start of right column -->
+                      <table width="270" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                        <tbody>
+                          <!-- image -->
+                          <tr>
+                            <td width="260" height="140" align="center" class="devicewidth"><img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pjH&oid=00D36000000JqqV&lastMod=1468580158000" alt="" border="0" width="270" height="159" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img"></td>
+                          </tr>
+                          <!-- Spacing -->
+                          <tr>
+                            <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                          </tr>
+                          <!-- Spacing -->
+                          <tr>
+                            <td><!-- start of text content table -->
+                              <table width="260" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                                <tbody>
+                                  <!-- title -->
+                                  <tr>
+                                    <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 18px; color: #333333; text-align:left;line-height: 20px;" st-title="2col-title2"> Salesforce Admin Support </td>
+                                  </tr>
+                                  <!-- end of title -->
+                                  <!-- Spacing -->
+                                  <tr>
+                                    <td width="100%" height="5" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                                  </tr>
+                                  <!-- /Spacing -->
+                                  <!-- content -->
+                                  <tr>
+                                    <td style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 13px; color: #444444; text-align:left;line-height: 18px;" st-content="rightimage-paragraph"> CRM strategies are usually iterative processes and as the organization advances the CRM strategy keeps evolving, thus necessitating adaptation and fine tuning of the implemented Salesforce solution. This requires business to allocate dedicated or shared resources for administration of Salesforce solution.  </td>
+                                  </tr>
+                                  <!-- end of content -->
+                                  <!-- Spacing -->
+                                  <tr>
+                                    <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                                  </tr>
+                                  <!-- /Spacing -->
+                                  <!-- button -->
+                                  <tr>
+                                    <td><table height="30" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" class="tablet-button" st-button="edit">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" valign="middle" height="30" style=" background-color:#0774B5; border-top-left-radius:4px; border-bottom-left-radius:4px;border-top-right-radius:4px; border-bottom-right-radius:4px; background-clip: padding-box;font-size:13px; font-family:'Trebuchet MS', Arial, Helvetica, sans-serif; text-align:center;  color:#ffffff; font-weight: 300; padding-left:18px; padding-right:18px;"><span style="color: #ffffff; font-weight: 300;"> <a style="color: #ffffff; text-align:center;text-decoration: none;" href="https://www.youtube.com/watch?v=bEIZFurM1pw" target="_blank">Watch Video</a> </span></td>
+                                        </tr>
+                                      </tbody>
+                                    </table></td>
+                                  </tr>
+                                  <!-- /button -->
+                                </tbody>
+                              </table></td>
+                          </tr>
+                          <!-- end of text content table -->
+                        </tbody>
+                      </table>
+                      <!-- end of right column --></td>
+                  </tr>
+                  <tr>
+                    <td height="20" style="border-bottom:2px solid #0774B5;">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table></td>
+            </tr>
+            <tr>
+              <td width="100%" height="20"></td>
+            </tr>
+          </tbody>
+        </table></td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- End of 2-columns -->
+</div>
+<div class="block">
+   <!-- start of left image -->
+  <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="rightimage">
+      <tbody>
+         <tr>
+            <td align="center">
+               <table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" modulebg="edit">
+                  <tbody>
+                     <!-- Spacing -->
+                     <tr class="devicewidthinner">
+                       <!-- start of image -->
+                       <td align="center"><a target="_blank" href="#"><img width="600" border="0" height="150" alt="" style="display:block; border:none; outline:none; text-decoration:none;" src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pjb&oid=00D36000000JqqV&lastMod=1468580193000" class="bigimage"></a></td>
+                     </tr>
+                     <!-- Spacing -->
+                     <!-- Spacing -->
+                     <tr>
+                        <td height="20"></td>
+                     </tr>
+                     <!-- Spacing -->
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <!-- end of left image -->
+</div>
+
+<div class="block">
+   <!-- Start of 2-columns -->
+   <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="2columns">
+      <tbody>
+         <tr>
+            <td align="center">
+               <table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth" modulebg="edit">
+                  <tbody>
+                     <tr>
+                        <td width="100%" height="20"></td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <table width="560" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                              <tbody>
+                                 <tr>
+                                    <td>
+                                       <table width="260" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tbody>
+                                             <!-- image -->
+                                             <!-- Spacing -->
+                                             <!-- Spacing -->
+                                             <tr>
+                                                <td width="260">
+                                                   <!-- start of text content table -->
+                                                   <table width="260" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                                                      <tbody>
+                                                         <!-- title -->
+                                                         <!-- end of title -->
+                                                         <!-- Spacing -->
+                                                         <!-- /Spacing -->
+                                                         <!-- content -->
+                                                         <tr>
+                                                            <td width="100%" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; text-align:left;line-height: 20px;" st-content="2col-para1"><strong>Email: UK – uksalesforce@aress.com<br/>
+Rest of the World – salesforce@aress.com  2016 Aress Software &amp; Education Technologies (P) Ltd. All rights reserved.</strong></td>
+                                                         </tr>
+                                                      
+                                                         <!-- end of content -->
+                                                         <!-- Spacing -->
+                                                         <!-- /Spacing -->
+                                                         <!-- button -->
+                                                         <!-- /button -->
+                                                      </tbody>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- end of text content table -->
+                                          </tbody>
+                                       </table>
+                                       <!-- end of left column -->
+                                       <!-- spacing for mobile devices-->
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing">
+                                          <tbody>
+                                             <tr>
+                                                <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                       <!-- end of for mobile devices-->
+                                       <!-- start of right column -->
+                                       <table width="260" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                          <tbody>
+                                             <!-- image -->
+                                             <!-- Spacing -->
+                                             <!-- Spacing -->
+                                             <tr>
+                                                <td width="260">
+                                                   <!-- start of text content table -->
+                                                   <table width="260" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+                                                     <tr>
+                                                       <td align="center" width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;"><table border="0" cellspacing="0" cellpadding="0">
+                                                         <tr>
+                                                           <td width="32"><a href="https://www.facebook.com/AressSoftware/" target="_blank"><img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pVy&oid=00D36000000JqqV&lastMod=1468578025000" alt="" border="0" width="32" height="32" style="display:block; border:none; outline:none; text-decoration:none;"></a></td>
+                                                           <td width="6">&nbsp;</td>
+                                                           <td width="32"><a href="https://plus.google.com/108835875638213593796" target="_blank"><img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pWD&oid=00D36000000JqqV&lastMod=1468578058000" alt="" border="0" width="32" height="32" style="display:block; border:none; outline:none; text-decoration:none;"></a></td>
+                                                           <td width="6">&nbsp;</td>
+                                                           <td width="32"><a href="https://www.linkedin.com/company/aress-software?trk=company_name" target="_blank"><img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pWI&oid=00D36000000JqqV&lastMod=1468578090000" alt="" border="0" width="32" height="32" style="display:block; border:none; outline:none; text-decoration:none;"></a></td>
+                                                           <td width="6">&nbsp;</td>
+                                                           <td width="32"><a href="https://twitter.com/aress_software" target="_blank"><img src="https://c.na30.content.force.com/servlet/servlet.ImageServer?id=015360000022pWS&oid=00D36000000JqqV&lastMod=1468578141000" alt="" border="0" width="32" height="32" style="display:block; border:none; outline:none; text-decoration:none;"></a></td>
+                                                         </tr>
+                                                       </table></td>
+                                                     </tr>
+                                                      <tbody>
+                                                         <!-- title -->
+                                                         <!-- end of title -->
+                                                         <!-- Spacing -->
+                                                         <!-- /Spacing -->
+                                                         <!-- content -->
+                                                         <!-- end of content -->
+                                                         <!-- Spacing -->
+                                                         <!-- /Spacing -->
+                                                         <!-- button -->
+                                                         <!-- /button -->
+                                                      </tbody>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                             <!-- end of text content table -->
+                                          </tbody>
+                                       </table>
+                                       <!-- end of right column -->
+                                    </td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="100%" height="20"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <!-- End of 2-columns -->   
+</div>
+<div class="block">
+   <!-- Start of preheader -->
+  <table width="100%" bgcolor="#444444" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="postfooter">
+      <tbody>
+         <tr>
+            <td width="100%" align="center">
+               <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                  <tbody>
+                     <!-- Spacing -->
+                     <tr>
+                        <td width="100%" height="5"></td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td align="center" valign="middle" style="font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size: 10px;color: #999999" st-content="preheader">&nbsp;</td>
+                     </tr>
+                     <!-- Spacing -->
+                     <tr>
+                        <td width="100%" height="5"></td>
+                     </tr>
+                     <!-- Spacing -->
+                  </tbody>
+               </table>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <!-- End of preheader -->
+</div>
+
+</body></html>

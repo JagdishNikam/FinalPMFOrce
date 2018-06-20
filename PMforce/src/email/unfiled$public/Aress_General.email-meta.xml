@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Aress General</name>
+    <style>none</style>
+    <subject>Aress Software and Education Technologies P Limited</subject>
+    <textOnly>Email Template
+
+HOME | ABOUT | CONTACT
+
+By Outsourcing to us, get optimum performance without losing focus on your business.
+You can rely on us as your Professional Software Development Partner! From Rahul, our Founder and CEO, through the rest of the senior management team, the project managers, coordinators and leaders, the development staff and technical support agents and those that make sure we all work in a safe and clean environment – and get fed when it’s time!
+
+SOFTWARE DEVELOPMENT
+We create intuitive software applications for clients in complex domains. At Aress, you&apos;ll work in an Agile way with talented and experienced team who understand your industry and are passionate about technology. We develop unique customized bespoke software applications to resolve your business needs.
+
+Read More
+
+SMART TV &amp; MOBILE APP DEVELOPMENT
+If you are in search of a mobile app development supplier, Aress is your perfect match! Our app development company is a savvy iOS, Android and Windows Phone developer that will help you get on the mobile bandwagon. The applications we build are reliable, feature-rich...
+
+Read More
+
+SALESFORCE DEVELOPMENT
+Salesforce, the Customer Success Platform, enables enterprises to connect with their customers, partners and employees in a whole new way with its offerings. Aress, in partnership with Salesforce.com, has a micro-niche, razor focused team of certified Salesforce developers and consultants. Our Salesforce practice...
+
+Read More
+
+WEB DEVELOPMENT
+Our web app developers will morph your great ideas into workable web solutions. With top-talent web application development skills on board, our company will craft compelling web apps and jump-start your business. Aress offers website development services with a focus on site front end development....
+
+Read More
+
+Email:UK – uksalesforce@aress.com
+Rest of the World – salesforce@aress.com    © 2016 Aress Software &amp; Education Technologies (P) Ltd. All rights reserved.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

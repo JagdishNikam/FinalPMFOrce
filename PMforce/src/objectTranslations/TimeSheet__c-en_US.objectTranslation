@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TimeSheet</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TimeSheets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Billable1 --></label>
+        <name>Billable1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Request --></label>
+        <name>Change_Request__c</name>
+        <relationshipLabel><!-- TimeSheets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hours Spent --></label>
+        <name>Hours_Spent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allocation --></label>
+        <name>Project_Allocation__c</name>
+        <relationshipLabel><!-- TimeSheets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- TimeSheets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Task Category --></label>
+        <name>Task_Category__c</name>
+        <picklistValues>
+            <masterLabel>Analysis</masterLabel>
+            <translation><!-- Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bug Fixing</masterLabel>
+            <translation><!-- Bug Fixing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Creation</masterLabel>
+            <translation><!-- Case Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Calls</masterLabel>
+            <translation><!-- Client Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coding</masterLabel>
+            <translation><!-- Coding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration</masterLabel>
+            <translation><!-- Configuration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation-Proposal</masterLabel>
+            <translation><!-- Documentation-Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation-User Manual</masterLabel>
+            <translation><!-- Documentation-User Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knowledge Transfer (KT)</masterLabel>
+            <translation><!-- Knowledge Transfer (KT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave</masterLabel>
+            <translation><!-- Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>POC Creation</masterLabel>
+            <translation><!-- POC Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Plan</masterLabel>
+            <translation><!-- Project Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Tesing</masterLabel>
+            <translation><!-- QA Tesing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Learning</masterLabel>
+            <translation><!-- Self Learning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team Meetings</masterLabel>
+            <translation><!-- Team Meetings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT Support</masterLabel>
+            <translation><!-- UAT Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Testing</masterLabel>
+            <translation><!-- Unit Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Training</masterLabel>
+            <translation><!-- User Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Task Description --></label>
+        <name>Task_Description__c</name>
+    </fields>
+    <layouts>
+        <layout>TimeSheet Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Hours spent must be less than or equals to 12 --></errorMessage>
+        <name>Hours_spent_not_more_than_12</name>
+    </validationRules>
+</CustomObjectTranslation>

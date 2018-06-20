@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feedback Question Main</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feedback Question Main</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dummy --></label>
+        <name>Dummy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Five --></label>
+        <name>Option_Five__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Four --></label>
+        <name>Option_Four__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option One --></label>
+        <name>Option_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Three --></label>
+        <name>Option_Three__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Two --></label>
+        <name>Option_Two__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Option --></label>
+        <name>Question_Option__c</name>
+        <relationshipLabel><!-- Feedback Question Main --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Survey --></label>
+        <name>Related_Feedback__c</name>
+        <relationshipLabel><!-- Feedback Question Main --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test field --></label>
+        <name>Test_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

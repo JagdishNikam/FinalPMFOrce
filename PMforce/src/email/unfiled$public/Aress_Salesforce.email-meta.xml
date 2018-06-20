@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Aress Salesforce</name>
+    <style>none</style>
+    <subject>Aress Software and Education Technologies P Limited</subject>
+    <textOnly>Salesforce Aress
+
+HOME | ABOUT | CONTACT
+
+Salesforce Development
+Aress, in partnership with Salesforce.com, has a micro-niche, razor focused team of certified Salesforce developers and consultants. Our Salesforce practice can help you with all your consulting, implementation and support service requirements with Salesforce, the most trusted Customer Success Platform.
+
+Are you aiming to become productive with your Salesforce packages immediately?
+
+
+Our Quick Start Packages for Salesforce.com can provide your organization with the optimal set up and configurations for Salesforce.com to scale &amp; drive your business to the next level. We provide the following features as part of Quick Start at a very attractive fixed price.
+
+Read More
+
+Salesforce Implementation Services
+Successful and sustainable implementation of Salesforce needs an in-depth analysis of your current business situation and your future vision. Our experienced implementation team has deep business and technical competencies and remain focused helping our clients throughout entire product lifecycle.
+
+Read More
+
+Strategic Consulting
+We offer comprehensive consulting services for custom Salesforce implementations that meet your unique business needs. Our experienced Salesforce consultants follow a hands-on approach to study your business process, future visions and ensure the best suited and sustainable implementation. If you are managing your own ...
+
+Read More
+
+Salesforce Admin Support
+CRM strategies are usually iterative processes and as the organization advances the CRM strategy keeps evolving, thus necessitating adaptation and fine tuning of the implemented Salesforce solution. This requires business to allocate dedicated or shared resources for administration of Salesforce solution.
+
+Watch Video
+
+Email: UK – uksalesforce@aress.com
+Rest of the World – salesforce@aress.com  2016 Aress Software &amp; Education Technologies (P) Ltd. All rights reserved.</textOnly>
+    <type>custom</type>
+</EmailTemplate>

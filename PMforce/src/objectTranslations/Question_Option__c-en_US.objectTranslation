@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Question Option</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Question Option</value>
+    </caseValues>
+    <fields>
+        <label><!-- Customer Email --></label>
+        <name>Customer_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Name --></label>
+        <name>Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Phone --></label>
+        <name>Customer_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback Main --></label>
+        <name>Feedback_Main__c</name>
+        <relationshipLabel><!-- Question Option --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Question --></label>
+        <name>Related_Question__c</name>
+        <relationshipLabel><!-- Question Option --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Response Radio --></label>
+        <name>Response_Radio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Slider --></label>
+        <name>Response_Slider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Date --></label>
+        <name>Survey_Date__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

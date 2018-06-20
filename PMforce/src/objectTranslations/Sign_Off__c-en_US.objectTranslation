@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sign Off</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sign Off</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Sign Off --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Received / Sent to --></label>
+        <name>Received_Sent_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sign Off For --></label>
+        <name>Sign_Off_For__c</name>
+        <picklistValues>
+            <masterLabel>Milestone Sign Off</masterLabel>
+            <translation><!-- Milestone Sign Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mock Up / UI Design</masterLabel>
+            <translation><!-- Mock Up / UI Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Sign Off</masterLabel>
+            <translation><!-- Project Sign Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requirement Understanding</masterLabel>
+            <translation><!-- Requirement Understanding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Design</masterLabel>
+            <translation><!-- Technical Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UAT sign Off</masterLabel>
+            <translation><!-- UAT sign Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Sign Off</masterLabel>
+            <translation><!-- Warranty Sign Off --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
